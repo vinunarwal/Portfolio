@@ -12,43 +12,43 @@ import SightCareImage from '../assets/icons/Sight Care.jpg';
 const projects = [
   {
     title: 'Restaurant Management',
-    description: 'A system for managing restaurant operations.',
+    description: 'Developed a comprehensive Restaurant Product Management System using the MERN stack. This application streamlines the management of restaurant products, including inventory tracking, product updates, and efficient order handling. The intuitive interface ensures ease of use for restaurant staff, enhancing productivity and operational efficiency.',
     link: 'https://cloud-billing.vercel.app',
     image: restaurantImage
   },
   {
     title: 'E-commerce Site',
-    description: 'An online store with full functionality.',
+    description: 'Designed a responsive and visually appealing Multi-Mart E-Commerce platform focusing on the UI using ReactJs. This project showcases a front-end experience, including product browsing, search functionality, and a streamlined shopping cart interface. It demonstrates proficiency in modern web design and user experience principles, providing a seamless and engaging shopping experience for users.',
     link: 'https://e-commerce-multimart.vercel.app/',
     image: ecommerceImage
   },
   {
-    title: 'Free Water Project',
-    description: 'A platform to advertise and distribute free water.',
+    title: 'Freewater Advertising Platform',
+    description: 'Developed a unique Freewater subscription website where users can sign up to receive free water bottles. This project serves a dual purpose: providing free water to users and offering a platform for advertisers to promote their brands by placing labels on the bottles. The site features a user-friendly interface for easy subscription and efficient management of bottle distribution and advertisement placements..',
     link: 'https://free-water-six.vercel.app/',
     image: FreeWaterImage
   },
   {
     title: 'Color Prediction Game',
-    description: 'A fun game for predicting colors.',
+    description: 'Developed an engaging Color Prediction Game using the MERN stack. This interactive platform allows users to place bets on different numbers or colors, offering the thrill of potential winnings. The site features a user-friendly interface, real-time updates, and secure transaction handling, providing an exciting and safe environment for users to test their luck and enjoy the game.',
     link: 'https://color-selector-one.vercel.app/',
     image: colorGameImage
   },
   {
-    title: 'Matrimonial Site',
-    description: 'A website for matching potential life partners.',
+    title: 'Matrimonial Matchmaking Website',
+    description: 'Collaborated with a team to develop a Matrimonial Matchmaking Website. This platform enables users to create detailed profiles, search for potential partners  based on their preferences. It offers advanced search filters and a user-friendly interface to enhance the matchmaking experience, making it easier for individuals to find their ideal life partners.',
     link: 'https://matrimony-five.vercel.app/',
     image: matrimonialImage
   },
   {
-    title: 'Sight Care',
-    description: 'A website for eye care.',
+    title: 'SightCare E-Commerce Interface',
+    description: 'Designed the user interface for SightCare, an e-commerce platform dedicated to selling eyedrops. This project focuses on creating an intuitive and visually appealing shopping experience, featuring easy navigation, product details, and a streamlined checkout process. The UI design ensures users can quickly find and purchase the eye care products they need.',
     link: 'https://sight-care.vercel.app/',
     image: SightCareImage
   },
   {
     title: 'React Project',
-    description: 'A website for React Topics and Interview Questions',
+    description: 'Developed a  website dedicated to React topics and interview questions. This platform provides a  resource for learners which provide explanations of React concepts, practical examples, and a collection of commonly asked interview questions. The site aims to enhance users understanding of React and help them prepare effectively for technical interviews.',
     link: 'https://react-introduction-lovat.vercel.app/',
     image: ReactImage
   },
