@@ -47,17 +47,19 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="relative z-10 text-center"
       >
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">Hey, I'm Vinu</h1>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">Hey, I'm Vinay</h1>
         <p className="mt-2 md:mt-4 text-lg md:text-2xl mb-2">A passionate Web Developer</p>
         <p className="text-lg md:text-2xl mb-7">Building Bridges Between Vision and User Interaction</p>
+        <button>
         <motion.a
           href="#projects"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="mt-6 md:mt-8 px-6 py-3 bg-white text-blue-600 rounded-md font-semibold shadow-md"
+          className="mt-6 md:mt-8 px-6 py-3 z-10  bg-white text-blue-600 rounded-md font-semibold shadow-md"
         >
           View My Work
         </motion.a>
+        </button>
       </motion.div>
     </section>
   );

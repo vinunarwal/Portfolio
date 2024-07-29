@@ -73,13 +73,19 @@ const Contact = () => {
 
         {/* Social Media Links */}
         <div className="mt-8 flex justify-center">
-          <a href="/" target="_blank" rel="noopener noreferrer" className="text-3xl mx-4 hover:text-blue-400 transition-colors duration-300">
-            <i className="fab fa-twitter"></i>
+          <a
+            href="https://wa.me/8307615016"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-3xl mx-4 hover:text-blue-400 transition-colors duration-300"
+          >
+            <i className="fab fa-whatsapp"></i>
           </a>
-          <a href="/" target="_blank" rel="noopener noreferrer" className="text-3xl mx-4 hover:text-blue-400 transition-colors duration-300">
+          <a href="https://www.linkedin.com/in/vinu-narwal-6b9a77284/" target="_blank" rel="noopener noreferrer" className="text-3xl mx-4 hover:text-blue-400 transition-colors duration-300">
             <i className="fab fa-linkedin"></i>
+
           </a>
-          <a href="/" target="_blank" rel="noopener noreferrer" className="text-3xl mx-4 hover:text-blue-400 transition-colors duration-300">
+          <a href="https://github.com/vinunarwal" target="_blank" rel="noopener noreferrer" className="text-3xl mx-4 hover:text-blue-400 transition-colors duration-300">
             <i className="fab fa-github"></i>
           </a>
         </div>

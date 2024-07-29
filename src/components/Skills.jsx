@@ -24,7 +24,10 @@ const skills = [
 
 const Skills = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({
+       duration: 1000,
+       once:true
+       });
   }, []);
 
   return (

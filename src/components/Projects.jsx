@@ -6,6 +6,8 @@ import FreeWaterImage from '../assets/icons/Free Water2.jpg';
 import colorGameImage from '../assets/icons/color.jpg';
 import restaurantImage from '../assets/icons/RastroSS.jpg';
 import matrimonialImage from '../assets/icons/Matrimonal4.jpg';
+import ReactImage from '../assets/icons/React Site.jpg';
+import SightCareImage from '../assets/icons/Sight Care.jpg';
 
 const projects = [
   {
@@ -38,6 +40,18 @@ const projects = [
     link: 'https://matrimony-five.vercel.app/',
     image: matrimonialImage
   },
+  {
+    title: 'Sight Care',
+    description: 'A website for eye care.',
+    link: 'https://sight-care.vercel.app/',
+    image: SightCareImage
+  },
+  {
+    title: 'React Project',
+    description: 'A website for React Topics and Interview Questions',
+    link: 'https://react-introduction-lovat.vercel.app/',
+    image: ReactImage
+  },
 ];
 
 const Projects = () => {
@@ -63,7 +77,7 @@ const Projects = () => {
               />
               <h3 className="text-2xl font-semibold mb-2 text-gray-800">{project.title}</h3>
               <p className="text-lg mb-4 text-gray-600">{project.description}</p>
-              <a href={project.link} className="text-blue-500 hover:underline">View Project</a>
+              <a href={project.link} target='_blank' className="text-blue-500 hover:underline">View Project</a>
             </div>
           ))}
         </div>
