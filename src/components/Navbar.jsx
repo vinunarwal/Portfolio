@@ -10,8 +10,15 @@ const Navbar = () => {
       {({ open }) => (
         <>
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <div className="">
-              <img src={PortfoilioTitle} className="h-12" alt="" />
+            <div className="relative">
+              <motion.img
+                src={PortfoilioTitle}
+                className="h-12"
+                alt="Portfolio"
+                whileHover={{ scale: 1.1 }} 
+                whileTap={{ scale: 0.9 }} 
+                transition={{ type: "spring", stiffness: 300 }} 
+              />
             </div>
             <div className="hidden md:flex space-x-8">
               <a
