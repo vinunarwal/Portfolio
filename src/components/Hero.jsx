@@ -6,7 +6,7 @@ import greenParticle from '../assets/icons/jsLogo.jpg';
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-r from-gray-100 to-gray-300 text-gray-900 p-6 md:p-12 lg:p-20 flex items-center justify-center min-h-screen overflow-hidden">
+    <section className="relative bg-gradient-to-r from-gray-100 to-gray-300 text-gray-900 flex items-center justify-center min-h-screen overflow-hidden">
       {/* Background Particles */}
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="relative w-full h-full">

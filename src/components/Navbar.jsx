@@ -6,7 +6,7 @@ import PortfoilioTitle from '../assets/icons/portfolio_title.png';
 
 const Navbar = () => {
   return (
-    <Menu as="nav" className="bg-gray-900 fixed w-full z-50">
+    <Menu as="nav" className="nav_bg fixed w-full z-50">
       {({ open }) => (
         <>
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">

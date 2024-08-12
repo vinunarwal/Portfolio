@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'devicon/devicon.min.css';
+import './App.css'
 
 const App = () => {
   return (
