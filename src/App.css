@@ -4,3 +4,10 @@
   background-size: cover;
   background-position: center;
 }
+
+.footer_bg{
+  background-image: url('./assets/icons/contact4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
